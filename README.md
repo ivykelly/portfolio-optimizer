@@ -44,6 +44,7 @@ pip3 install -r requirements.txt
 ```
 
 **Set up FRED API key**
+
 **Get a free API key from [FRED](https://fred.stlouisfed.org/docs/api/api_key.html)**
 ```
 cp .env.example .env
@@ -66,6 +67,7 @@ python3 Portfolio_Optimization.py
 ![Optimal portfolio weights](results/optimal_weights.png) 
 
 **Optimized portfolio vs. market benchmarks** 
+
 The optimized portfolio compared against individual ETFs (SPY, VTI, QQQ, AGG), a 60/40 portfolio, and the risk-free rate over the 5-year window. 
 ![Optimized vs benchmarks](results/optimized_vs_benchmarks_growth.png)
 
