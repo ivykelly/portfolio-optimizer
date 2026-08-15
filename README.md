@@ -27,25 +27,37 @@ This Python program uses mean-variance optimization to find the distribution of 
 
 ## Setup
 **Clone repository**
+'''
 git clone https://github.com/ivykelly/portfolio-optimizer.git
 cd portfolio-optimizer
+'''
 
 **Create and activate a virtual environment**
+'''
 python3 -m venv .venv
 source .venv/bin/activate
+'''
 
-Install dependencies
+**Install dependencies**
+'''
 pip3 install -r requirements.txt
+'''
 
 **Set up FRED API key**
 **Get a free API key from [FRED](https://fred.stlouisfed.org/docs/api/api_key.html)**
+'''
 cp .env.example .env
+'''
 
 **Open `.env` and replace the placeholder with your real key**
+'''
 FRED_API_KEY=your_actual_key_here
+'''
 
 **Run the program**
+'''
 python3 Portfolio_Optimization.py
+'''
 
 **Results (plots and CSVs) will be saved to the `results/` folder**
 
